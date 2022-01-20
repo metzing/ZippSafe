@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ZippSafe.EcoMode.Listeners
 {
-    interface IBuildingManagementService
+    public interface IBuildingManagementService
     {
         Task ManagerLockerStateChanges(IEnumerable<LockerState> lockerStates);
     }

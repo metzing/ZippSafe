@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ZippSafe.EcoMode.Listeners
 {
-    interface IEmailService
+    public interface IEmailService
     {
         Task SendEmail(IEnumerable<LockerState> lockerStates);
     }

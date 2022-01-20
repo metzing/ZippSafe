@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ZippSafe.EcoMode
 {
-    interface ILockerSystemManager
+    public interface ILockerSystemManager
     {
         Task<IEnumerable<LockerState>> SwitchEcoOn();
         Task<IEnumerable<LockerState>> SwitchEcoOff();

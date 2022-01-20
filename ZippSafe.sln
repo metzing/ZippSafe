@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZippSafe", "ZippSafe\ZippSafe.csproj", "{272F7153-5DAD-4380-B9E8-0D1C5C444D2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZippSafe", "ZippSafe\ZippSafe.csproj", "{272F7153-5DAD-4380-B9E8-0D1C5C444D2F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZippSafe.Test", "ZippSafe.Test\ZippSafe.Test.csproj", "{006058F7-15A9-434B-A98C-B6E56BB7017D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZippSafe.CommandLine", "ZippSafe.CommandLine\ZippSafe.CommandLine.csproj", "{5004B781-2654-45CC-99FD-6FDDA714620B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{272F7153-5DAD-4380-B9E8-0D1C5C444D2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{272F7153-5DAD-4380-B9E8-0D1C5C444D2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{272F7153-5DAD-4380-B9E8-0D1C5C444D2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{006058F7-15A9-434B-A98C-B6E56BB7017D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{006058F7-15A9-434B-A98C-B6E56BB7017D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{006058F7-15A9-434B-A98C-B6E56BB7017D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{006058F7-15A9-434B-A98C-B6E56BB7017D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5004B781-2654-45CC-99FD-6FDDA714620B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5004B781-2654-45CC-99FD-6FDDA714620B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5004B781-2654-45CC-99FD-6FDDA714620B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5004B781-2654-45CC-99FD-6FDDA714620B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

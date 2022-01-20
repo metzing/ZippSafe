@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ZippSafe.EcoMode.Listeners
 {
-    interface IDatabaseService
+    public interface IDatabaseService
     {
         Task SaveLockerStates(IEnumerable<LockerState> lockerStates);
     }
